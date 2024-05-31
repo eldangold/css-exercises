@@ -50,3 +50,7 @@ ul {
   list-style-type: none;
   display: flex;
 }
+
+.links {
+  gap: 16px;
+}
