@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -30,6 +31,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
 }
 
 button {
@@ -53,4 +55,5 @@ ul {
 
 .links {
   gap: 16px;
+  margin-right: auto;
 }
