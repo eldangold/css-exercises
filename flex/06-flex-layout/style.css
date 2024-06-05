@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -35,7 +36,8 @@ li {
   display: flex;
   margin-top: auto;
   background-color: #eeeeee;
-  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .left-links {
@@ -43,7 +45,6 @@ li {
   margin-right: auto;
   gap: 30px;
   padding: 0px;
-  padding-left: 15px;
 }
 
 .right-links {
@@ -51,16 +52,32 @@ li {
   margin-left: auto;
   gap: 30px;
   padding: 0px;
-  padding-right: 15px;
 }
 
 .header {
   display: flex;
   margin-bottom: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
+}
+
+a:link, a { 
+  text-decoration: none;
+  color:#666;
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
 }
