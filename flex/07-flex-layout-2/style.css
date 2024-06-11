@@ -24,6 +24,7 @@ body {
   margin-top: auto;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .sidebar {
@@ -36,4 +37,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.allcards {
+  flex-wrap: wrap;
+  margin-left: auto;
 }
