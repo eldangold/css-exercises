@@ -40,16 +40,33 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
+  padding: 16px;
 }
 
 .allcards {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: 32px;
   padding: 48px;
 }
 
 .body {
   display: flex;
   flex: 1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
